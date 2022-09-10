@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +27,7 @@
     justify-content: center;
     width: 100%;
     margin-top: 70%;
+    align-items: center;
 }
 
 .logo-div::before {
@@ -43,6 +49,9 @@
 
 h1 {
     color: white;
+    font-family: norse-bold;
+    font-size: 52px;
+    font-weight: bold;
 }
 
 form {
