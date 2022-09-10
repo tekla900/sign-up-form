@@ -38,8 +38,42 @@
 .form {
     width: 70%;
     height: 100vh;
+    background-color: rgba(249, 248, 245, 0.949);
 }
 
 h1 {
     color: white;
+}
+
+form {
+    background-color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container {
+    border: 2px solid rebeccapurple;
+    display: flex;
+    gap: 5%;
+    padding: 0 5%;
+}
+
+button {
+    background-color: #596D48;
+    padding: 1.5% 5%;
+    font-weight: 900;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+input {
+    width: 200px;
+    border: #E5E7EB thin solid;
+    border-radius: 4px;
+    height: 30px;
+    margin-bottom: 15%;
 }
