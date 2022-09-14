@@ -71,8 +71,8 @@ h1 {
 
 h2 {
     margin-top: 7.5%;
-    margin-bottom: 20px;
-    font-size: 28px;
+    margin-bottom: 4%;
+    font-size: 1.8rem;
 }
 
 button {
@@ -105,11 +105,11 @@ input:focus {
     width: 100%;
     background-color: white;
     box-shadow: 0px 5px 10px gainsboro;
-    margin-bottom: 30px;
+    margin-bottom: 7%;
 }
 
 .par {
-    font-size: 24px;
+    font-size: 140%;
     font-weight: 550;
     padding: 0 5%;
     margin-top: 5%;
