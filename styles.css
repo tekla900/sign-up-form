@@ -52,13 +52,19 @@ h1 {
     font-weight: bold;
 }
 
-.column {
+.row, .each {
     display: flex;
-    flex-direction: column;
 }
+
+.row {
+    gap: 20%;
+}
+
+.each {flex-direction: column;}
 
 .form-container, h2 {
     display: flex;
+    flex-direction: column;
     gap: 5%;
     padding: 0 5%; 
 }
@@ -167,5 +173,8 @@ input:invalid {
     input {
         height: 40px;
         margin-bottom: 5%;
+    }
+    .row {
+        flex-direction: column;
     }
 }
